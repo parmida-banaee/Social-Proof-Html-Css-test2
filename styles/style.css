@@ -15,11 +15,24 @@ body {
 }
 
 #main {
+    position: relative;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+img.position1 {
+    position: absolute;
+    top: -70px;
+    left: -110px;
+}
+
+img.position2 {
+    position: absolute;
+    bottom: -70px;
+    right: -100px;
 }
 
 #top-contents {
@@ -58,12 +71,12 @@ header p {
     padding: 15px 0 15px 30px;
 }
 
-.rated-card:nth-child(2) {
-    left: 45px;
+.rated-card:nth-child(1) {
+    right: 85px;
 }
 
-.rated-card:nth-child(3) {
-    left: 85px;
+.rated-card:nth-child(2) {
+    right: 45px;
 }
 
 .rated-card p {
