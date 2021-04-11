@@ -12,8 +12,16 @@
 
 <body>
     <section id="main">
-        <img class="position1" src="./assets/bg-pattern-top-desktop.svg" alt="bg-pattern-top-desktop">
-        <img class="position2" src="./assets/bg-pattern-bottom-desktop.svg" alt="bg-pattern-bottom-desktop">
+        <picture class="position1">
+            <source media="(max-width:400px)" srcset="./assets/bg-pattern-top-mobile.svg">
+            <img src="./assets/bg-pattern-top-desktop.svg" alt="bg-pattern-top-desktop">
+        </picture>
+        <picture class="position2">
+            <source media="(max-width:400px)" srcset="./assets/bg-pattern-bottom-mobile.svg">
+            <img src="./assets/bg-pattern-bottom-desktop.svg" alt="bg-pattern-bottom-desktop">
+        </picture>ّ
+        <!-- <img class="position1" src="./assets/bg-pattern-top-desktop.svg" alt="bg-pattern-top-desktop">
+        <img class="position2" src="./assets/bg-pattern-bottom-desktop.svg" alt="bg-pattern-bottom-desktop"> -->
         <div id="top-contents">
             <header>
                 <h1>10,000+ of our users love our products.</h1>
@@ -59,7 +67,7 @@
                         <p class="ver">Verified Buyer</p>
                     </div>
                 </div>
-                <p class="description">" We needed the same printed design as the one we had ordered a week prior.Not only did they find the original order, but we also recived it in time.Excellent!"</p>
+                <p class="description">" We needed the same printed design as the one we had ordered a week prior.Not only did they find the original order, but we also recived it in time.Excellent!</p>
             </div>
             <div class="bottom-card">
                 <div class="profile">
